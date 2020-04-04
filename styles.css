@@ -1,0 +1,27 @@
+
+body{
+	text-align: center;
+	font-size: 24px;
+}
+#navbar{
+	color:#36332d;
+}
+@media(min-width: 992px)
+{
+	#btn{
+		display: none;
+	}
+	.animals{
+		display: none;
+	}
+}
+button:hover{
+background-color: white;
+}
+section{
+	position: relative;
+	background-color: lightgrey;
+	width: 95%;
+	height: 1000px;
+	margin: 2.5%;
+}
